@@ -9,7 +9,7 @@ body  {
     margin: 0;
     font-size: 16px;
     font-family: myFirstFont;
-    background: url(aa95db5513_INV4.jpg) no-repeat center fixed;
+    background: url(IMG_2765.JPG) no-repeat center fixed;
     background-size: cover;
     height: 95%;
 }
@@ -62,7 +62,7 @@ textarea {
    border: 2px solid grey;
    border-radius: 5px;
    font-size: 12px;
-   background-color: #94B8C4;
+   background-color: #CDDAE6;
    opacity: 0.8;
 }
 
@@ -77,7 +77,7 @@ textarea {
 .right_col {
    float:right;
    width:72%;
-   background-color: #94B8C4;
+   background-color: #CDDAE6;
    min-height: 320px;
    opacity: 0.8;
 }
@@ -98,7 +98,7 @@ textarea {
 
 .page-header {
     opacity: 0.8;
-    background-color: #1D3320;
+    background-color: #244663;
     margin-top: 0;
     padding: 10px 10px 10px 40px;
     margin-bottom: 10px;
@@ -180,7 +180,7 @@ font: bold 1em;
 .footer {
     opacity: 0.9;
     clear: both;
-    background-color: #1D3320;
+    background-color: #244663;
     color: white;
     padding: 15px 70px;
     text-align: center;
@@ -209,17 +209,17 @@ font: bold 1em;
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #347793;
+  background-color: #469EC2;
   border: none;
   border-radius: 5px;
-  box-shadow: 3px 6px #677C7D;
+  box-shadow: 3px 6px #244663;
 }
 
-.btn-default:hover {background-color: #2B4D59}
+.btn-default:hover {background-color: #244663}
 
 .btn-default:active {
   background-color: #2B4D59;
-  box-shadow: 0 3px #677C7D;
+  box-shadow: 0 3px #244663;
   transform: translateY(4px);
 }
 
@@ -253,13 +253,13 @@ tr:nth-child(even){background-color: #E5E5E5}
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color: #347793;
+  background-color: #469EC2;
   border: none;
   border-radius: 5px;
-  box-shadow: 3px 6px #677C7D;
+  box-shadow: 3px 6px #244663;
 }
 
-.btn-gauche:hover {background-color: #2B4D59}
+.btn-gauche:hover {background-color: #244663;}
 
 .btn-gauche:active {
   background-color: #2B4D59;
@@ -268,7 +268,7 @@ tr:nth-child(even){background-color: #E5E5E5}
 }
 
 .btn-group .button {
-    background-color: #347793;
+    background-color: #469EC2;
     border: none;
     color: white;
     padding: 10px 25px;
@@ -283,17 +283,12 @@ tr:nth-child(even){background-color: #E5E5E5}
 }
 
 .btn-group .button:hover {
-    background-color: #4CBDE0;
-}
-
-.btn-group .button:active {
-  background-color: #2B4D59;
-  box-shadow: 0 3px #677C7D;
-  transform: translateY(4px);
+    background-color: #244663;
+    border: 1px solid #469EC2;
 }
 
 .langue {
-    background-color: #347793;
+    background-color: #469EC2;
     border: none;
     color: white;
     padding: 10px 25px;
@@ -308,6 +303,7 @@ tr:nth-child(even){background-color: #E5E5E5}
     float: left;
     border-radius: 50px 10px;
 }
+
 
 .grid A
 {
