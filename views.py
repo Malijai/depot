@@ -2,10 +2,10 @@ from django.shortcuts import render
 from django.http import HttpResponseRedirect
 from django.urls import reverse
 from django.contrib.auth.decorators import login_required
-
 from .models import Document, Dossier
 from .forms import DocumentForm, DossierForm
 from django.conf import settings
+
 
 @login_required(login_url=settings.LOGIN_URI)
 def pardossier(request, pid):
