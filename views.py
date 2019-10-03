@@ -21,7 +21,7 @@ def pardossier(request, pid):
             newdoc.author = request.user
             newdoc.save()
 
-            return HttpResponseRedirect(reverse('dossier', args=[newdoc.dossier.id]))
+            return HttpResponseRedirect(reverse('dossierfolder', args=[newdoc.dossier.id]))
     else:
         form = DocumentForm()  # A empty, unbound form
 
@@ -51,7 +51,7 @@ def dossier_new(request, pid):
             #dossier.comment = request.POST.get('comment', '')
             dossier.parentId = parent
             dossier.save()
-            return HttpResponseRedirect(reverse('dossier', args=[dossier.id]))
+            return HttpResponseRedirect(reverse('dossierfolder', args=[dossier.id]))
     else:
         form = DossierForm()
     return render(request, "dossier_edit.html", {'form': form,
